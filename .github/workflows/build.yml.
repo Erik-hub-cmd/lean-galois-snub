@@ -1,0 +1,23 @@
+name: Build
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build with Lake (uses the Mathlib cache)
+        uses: leanprover/lean-action@v1
+        with:
+          use-mathlib-cache: true
+      - name: Print the axioms of the main theorems
+        run: lake env lean Axioms.lean
+      - name: Check that there is no sorry
+        run: |
+          if grep -rnw --include='*.lean' -e 'sorry' -e 'admit' LeanGalois LeanGalois.lean; then
+            echo "Found sorry/admit"; exit 1
+          fi
