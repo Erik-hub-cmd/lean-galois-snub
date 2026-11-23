@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "lean-galois: a Lean 4 formalisation of the Galois obstruction for the snub square network"
+authors:
+  - family-names: Ersson
+    given-names: Erik
+    affiliation: "Independent researcher, Sandviken, Sweden"
+license: Apache-2.0
+version: "1.0.0"
+date-released: "2026-11-23"
+keywords:
+  - Lean 4
+  - Mathlib
+  - electrical networks
+  - snub square lattice
+  - Y-Delta transformations
+  - formal verification

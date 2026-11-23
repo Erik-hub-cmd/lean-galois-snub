@@ -1,0 +1,42 @@
+import LeanGalois
+import LeanGalois.Concrete
+import LeanGalois.Local
+#print axioms squareNet_specPoly
+#print axioms hexNet_specPoly
+#print axioms snubNet_specPoly
+#print axioms snub_face
+#print axioms sats_10_1'
+#print axioms sats_10_1
+#print axioms ElemMove.specPoly_eq
+#print axioms sats_10_1_elem
+#print axioms sats_10_1_snub_rat
+#print axioms StarMesh.specPoly_star
+#print axioms LocalMove.det_hyp
+#print axioms LocalMove.field_hyp
+#print axioms sats_10_1_local
+#print axioms sats_10_1_local_snub_rat
+#print axioms specPoly_liftX
+#print axioms Obstructed.liftX
+#print axioms Obstructed.mapD_equiv
+#print axioms Obstructed.not_minimal
+#print axioms snub_obstructed
+#print axioms sats_10_1_cover
+#print axioms sats_10_1_cover_snub_rat
+#print axioms FunMat.det_funMat
+#print axioms specPoly_crsf
+#print axioms sweep
+#print axioms top_face
+#print axioms Heights.cycle_face
+#print axioms LP2.faceR_det
+#print axioms top_det
+#print axioms det_cycMat
+#print axioms det_blocks
+#print axioms face_splits
+#print axioms ZigzagData.dot_s
+#print axioms Obstructed.not_hasZigzags
+#print axioms sats_10_1_geo
+#print axioms sats_10_1_geo_snub_rat
+#print axioms squareZigzag
+#print axioms lattice_smith
+#print axioms cover_reachable
+#print axioms sats_10_1_smith
